@@ -35,13 +35,14 @@ function App() {
     >
       <LaserFlow
         horizontalBeamOffset={0.1}
-        verticalBeamOffset={0.0}
+        verticalBeamOffset={0}
         color="#FF79C6"
+         style={{  height: "1300px" }}
       />
 
       <div style={{
         position: 'absolute',
-        top: '50%',
+        top: '70%',
         left: '50%',
         transform: 'translateX(-50%)',
         width: '86%',
@@ -57,16 +58,17 @@ function App() {
         zIndex: 6
       }}>
         {/* Your content here */}
+        hello
       </div>
 
       <img
         ref={revealImgRef}
-        src="/path/to/image.jpg"
+        src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/rockcms/2023-11/231106-best-laptops-oo-main-efe15c.jpg"
         alt="Reveal effect"
         style={{
           position: 'absolute',
           width: '100%',
-          top: '-50%',
+          top: '0%',
           zIndex: 5,
           mixBlendMode: 'lighten',
           opacity: 0.3,

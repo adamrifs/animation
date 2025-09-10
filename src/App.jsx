@@ -10,7 +10,7 @@ function App() {
   return (
     <div
       style={{
-        height: '800px',
+        height: 'auto',
         position: 'relative',
         overflow: 'hidden',
         backgroundColor: '#060010'
@@ -37,16 +37,16 @@ function App() {
         horizontalBeamOffset={0.1}
         verticalBeamOffset={0}
         color="#FF79C6"
-         style={{  height: "1300px" }}
+        style={{ height: "1300px" }}
       />
 
       <div style={{
         position: 'absolute',
-        top: '70%',
+        top: '50%',
         left: '50%',
         transform: 'translateX(-50%)',
         width: '86%',
-        height: '60%',
+        height: '40%',
         backgroundColor: '#060010',
         borderRadius: '20px',
         border: '2px solid #FF79C6',
@@ -58,7 +58,7 @@ function App() {
         zIndex: 6
       }}>
         {/* Your content here */}
-        hello
+        <h1>Hackite InfoTech</h1>
       </div>
 
       <img
